@@ -1,0 +1,119 @@
+:root {
+  --input-border: #3a456a;
+  --btn-bg-color: #f9995d;
+}
+
+mark.blue{
+color:#2a47a9;
+background: none;
+}
+
+.ContactInfo {
+  font-size: 16px;
+  padding: 2em 4em;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1em;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+}
+
+.ContactInfo ul {
+  list-style: none;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-title {
+  font-family: "Merriweather", serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.5em 0;
+}
+
+
+
+
+input{
+  width: 400px;
+}
+
+.social-media {
+  display: flex;
+  gap: 0.3em;
+  padding: 0.5em 0;
+}
+
+.subscribe-input {
+  width: auto;
+  flex: 1;
+  background: transparent;
+  border: 0.06em solid var(--input-border);
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  transition: all 0.25s ease 0s;
+  display: inline-block;
+}
+
+
+
+.subscribe-btn {
+  background: var(--btn-bg-color);
+  border: black;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  transition: all 0.25s ease 0s;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.subscribe-btn:hover{
+  color: black;
+}
+
+
+
+.form-title,
+.social-col-title {
+  font-size: 1em;
+  color: var(--color);
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.social-media {
+  flex-direction: column;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 2rem;
+  margin-left: -2.1rem;
+  margin-top: -0.7rem;
+}
+
+.social-media-list a {
+  padding: 0.5em;
+  color: var(--color-smooth);
+  display: flex;
+  border-radius: 0.3em;
+  transition: all 0.25s ease 0s;
+}
+
+.social-media-list svg {
+  width: 1.5em;
+  height: 1.5em;
+  transition: all 0.25s ease 0s;
+}
+
+
+

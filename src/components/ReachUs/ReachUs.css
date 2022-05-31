@@ -1,0 +1,47 @@
+.Reachdiv{
+    height: fit-content;
+    width: fit-content;
+}
+
+.engCover{
+    object-fit: contain;
+    object-fit: cover;
+    background-size: cover;
+    border: 1px solid rgb(176, 175, 230);
+    width: 100%;
+}
+    
+
+
+.position-relative2{
+    position: relative;
+    box-sizing: content-box;
+    margin-bottom: 1cm;
+}
+
+.Reach{
+    left: 1%;
+    top: 60%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin: 2em 2em ;
+    text-align: center;
+    font-size: large;
+    margin-left: 2%;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+    .Reach{
+    position: static; 
+    bottom: initial;
+    font-size: medium;
+    margin: .25rem 0px;
+    color: rgb(2, 0, 0);
+    background-color: rgb(92, 92, 223);
+    }
+}

@@ -1,0 +1,37 @@
+#ContactForm{
+    background-color:#f8f7f6;
+    align-items:center;
+    font-weight: bold;
+}
+
+#header{
+    text-align: center;
+}
+
+#text{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: -0.5rem;
+}
+
+mark.red{
+    color:red;
+    background: none;
+    }
+
+#MsgBtn{
+text-align: center;
+background-color: #2a47a9;
+color: white;
+border: black 1px;
+display: block;
+margin: auto;
+margin-bottom: 1rem;
+width: 100%;
+align-items: center;
+text-align: center;
+}
+
+.ContactUs{
+    background-color: antiquewhite;
+}
